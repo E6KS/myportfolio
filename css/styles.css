@@ -11111,7 +11111,7 @@ section.about-me-section {
     /* height: 300px; */
     max-width: 1280px;
     overflow: hidden;
-    margin-top: 50vh;
+    margin-top: 400px;
     flex-direction: column;
     padding-left: 3rem;
     padding-right: 3rem;
@@ -11669,7 +11669,7 @@ img.hero-image {
   background: rgb(192 192 192 / 30%);
   -webkit-backdrop-filter: blur(150px);
   backdrop-filter: blur(150px);
-  height: 180%;
+  height: 150%;
   width: 100%;
   background-attachment: fixed;
   position: absolute;
@@ -11684,11 +11684,11 @@ img.hero-image {
     background: rgb(192 192 192 / 30%);
     -webkit-backdrop-filter: blur(150px);
     backdrop-filter: blur(150px);
-    height: 1000px;
+    height: 130%;
     width: calc(100% - 17rem);
     background-attachment: fixed;
     position: absolute;
-    margin-top: 50vh;
+    margin-top: 400px;
   }
 }
 
@@ -11881,7 +11881,7 @@ button.custom-btn.right-align-project-bar {
   margin-top:30px;
   width: 100%;
   object-fit: cover;
-  height: 60vh;
+  height: 500px;
   /* margin-top: 20px; */
   position: absolute;
 }
@@ -11934,7 +11934,7 @@ img.profile_pic {
   img.profile_pic {
     position: absolute;
     width: 350px;
-    margin-top: 25vh;
+    margin-top: 200px;
     z-index: 1;
     margin-left: 0;
     padding: 0;
