@@ -11669,7 +11669,7 @@ img.hero-image {
   background: rgb(192 192 192 / 30%);
   -webkit-backdrop-filter: blur(150px);
   backdrop-filter: blur(150px);
-  height: 150%;
+  height: 180%;
   width: 100%;
   background-attachment: fixed;
   position: absolute;
@@ -11940,5 +11940,3 @@ img.profile_pic {
     padding: 0;
 }
 }
-
-
