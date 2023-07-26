@@ -11190,23 +11190,11 @@ section.project-section {
   align-items: center;
   padding-left: 1rem;
   padding-right: 1rem;
-  max-width: 1280px;
-  width: 99%;
-  /* padding-top: 5rem; */
-  /* padding-bottom: 5rem; */
+  max-width: 99%;
 }
 
 .intro-description{
   width: 43rem;
-}
-
-@media (min-width: 992px) {
-  section.project-section {
-    /* padding-left: 3rem; */
-    /* padding-right: 3rem; */
-    /* padding-top: 5rem; */
-    /* padding-bottom: 5rem; */
-  }
 }
 
 @media (max-width: 768px) {
@@ -12040,7 +12028,6 @@ section.about-section {
 }
 
 @media (min-width: 1280px){
-
 
   .profile-pic-section{
     height: 100vh;
