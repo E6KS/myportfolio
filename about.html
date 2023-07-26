@@ -23,7 +23,7 @@
 
 
 
-<body>
+<body class="background-blur" style="background-image:url('assets/img/about_background.png')">
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg fixed-top blur-effect" id="sideNav" style="backdrop-filter: none;">
         <a class="navbar-brand" href="index.html">
@@ -56,7 +56,7 @@
 
 
         </a>
-        <button class="navbar-toggler collapsed" id="navbar-button-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <button class="navbar-toggler collapsed" id="navbar-button-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon navbar-icon-dark "></span></button>
         <div class="navbar-collapse collapse" id="navbarResponsive" style="">
             <ul class="navbar-nav nav-item-custom">
                 <li class="nav-item"><a class="nav-link " href="index.html">
@@ -96,19 +96,54 @@
 
         
     </div></nav>
-    <div class="header_background">
-        <img src="assets/img/header_img.png" alt="about_header" class="about_header">
-        <div class="blur"></div>
-        
-    </div>
     
     <div class="container mobile-view-container">
 
         <!-- Page Content-->
         <div class="container-fluid p-0">
-            <img src="assets/img/profile_pic.png" alt="profile-pic" class="profile_pic">
-            <section class="about-me-section">
-                <div class="about-description-social-media">
+            <section class="about-section">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="about-description">
+                            <h1 class="mb-4"> 
+                                It's <span class="gradient-text">me</span> again!  Here is a little bit about <span class="gradient-text">myself</span>
+                            </h1>
+                            <p align="justify">
+                                I'm Edmund and I am currently in my final year completing my major in Software Development for Bachelor of Information Technology. I really enjoy designing interface where I am able to experiment different design styles and elements.
+                            </p>
+                        </div>
+                        
+                        
+                    </div>
+                    <div class="col-lg-6 ">
+                        <div class="profile-pic-section">
+                            <img src="assets/img/profile-pic-1.jpg" alt="profile-pic" class="profile_pic">
+                        </div>
+                        
+                    </div>
+                    <div class="col-lg-6 ">
+                        <h1 class="gradient-text mb-4"> 
+                            Experience
+                        </h1>
+                    </div>
+                    <div class="col-lg-6 mb-5">
+                        <p align="justify">
+                            I have previously worked as an UX/UI intern during my summer holidays and I have designed several user interface as well as exploring different website design styles. In addition, I have also worked on some front-end development where I interact with CSS and HTML as I am trying to re-create the designs I made into a real website which I found to really give me the sense of satisfaction of being able to create a website that I personally designed.
+                        </p>
+                    </div>
+                    <div class="col-lg-12 ">
+                        <img src="assets/img/header_img.png" alt="profile-pic" class="image_landscape">
+                        
+                    </div>
+                </div>
+            </section>
+            <section class="connect-section">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1 class="mb-4"> 
+                            Lets's <span class="gradient-text">Connect</span></span>
+                        </h1>
+                        <div class="about-description-social-media">
                             <a style="text-decoration: none;" href="assets/pdf/Resume.pdf" class="custom-btn-dark button-margin-right" target="_blank">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="button-padding-right svg-inline--fa" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
                                     <path d="M5.523 12.424c.14-.082.293-.162.459-.238a7.878 7.878 0 0 1-.45.606c-.28.337-.498.516-.635.572a.266.266 0 0 1-.035.012.282.282 0 0 1-.026-.044c-.056-.11-.054-.216.04-.36.106-.165.319-.354.647-.548zm2.455-1.647c-.119.025-.237.05-.356.078a21.148 21.148 0 0 0 .5-1.05 12.045 12.045 0 0 0 .51.858c-.217.032-.436.07-.654.114zm2.525.939a3.881 3.881 0 0 1-.435-.41c.228.005.434.022.612.054.317.057.466.147.518.209a.095.095 0 0 1 .026.064.436.436 0 0 1-.06.2.307.307 0 0 1-.094.124.107.107 0 0 1-.069.015c-.09-.003-.258-.066-.498-.256zM8.278 6.97c-.04.244-.108.524-.2.829a4.86 4.86 0 0 1-.089-.346c-.076-.353-.087-.63-.046-.822.038-.177.11-.248.196-.283a.517.517 0 0 1 .145-.04c.013.03.028.092.032.198.005.122-.007.277-.038.465z"></path>
@@ -124,18 +159,15 @@
                             <a style="text-decoration: none;" href="mailto: edloke.uxdesign@gmail.com" class="custom-btn-dark button-margin-right" target="_blank">
                                 <svg class="button-padding-right svg-inline--fa fa-envelope" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="envelope" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"></path></svg>Email
                             </a>
-                        </div><div class="about-description">
-                        
-                        
-                        <h1 class="gradient-text mb-4"> 
-                            About Me
-                        </h1>
-                        <p align="justify">
-                            I'm Edmund and I am currently in my final year completing my major in Software Development for Bachelor of Information Technology. I really enjoy designing interface where I am able to experiment different design styles and elements.<br><br>
-                            I have previously worked as an UX/UI intern during my summer holidays and I have designed several user interface as well as exploring different website design styles. In addition, I have also worked on some front-end development where I interact with CSS and HTML as I am trying to re-create the designs I made into a real website which I found to really give me the sense of satisfaction of being able to create a website that I personally designed.
-                        
-                        </p>
-                    </div></section>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+                
+            </section>
+            
+
        </div>
     </div>
 
