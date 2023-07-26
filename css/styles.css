@@ -11131,6 +11131,7 @@ section.personal-section {
   padding-top: 5rem;
   padding-bottom: 5rem;
   max-width: 100%;
+  width: 99%;
   height: 300px;
 }
 
@@ -11190,6 +11191,7 @@ section.project-section {
   padding-left: 1rem;
   padding-right: 1rem;
   max-width: 1280px;
+  width: 99%;
   /* padding-top: 5rem; */
   /* padding-bottom: 5rem; */
 }
